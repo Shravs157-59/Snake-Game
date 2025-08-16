@@ -45,8 +45,7 @@ Once deployed with **GitHub Pages**, the game will be live at:
 ---
 
 ## 🖼️ Screenshot
-(Add your screenshot here after hosting the game!)  
-
+(https://github.com/Shravs157-59/Snake-Game/blob/main/snake.png)
 ---
 
 ## 🤝 Contributing
