@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Snake Game</h1>
+            <div class="game-info">
+                <div class="score-container">
+                    <span>Score: </span>
+                    <span id="score">0</span>
+                </div>
+                <button id="soundToggle" class="sound-toggle">🔊</button>
+            </div>
+        </div>
+        
+        <div class="game-container">
+            <canvas id="gameCanvas" width="400" height="400"></canvas>
+            
+            <div id="startScreen" class="start-screen">
+                <div class="start-content">
+                    <h2>Ready to Play?</h2>
+                    <p>Use arrow keys to control the snake</p>
+                    <button id="startBtn" class="start-btn">Start Game</button>
+                </div>
+            </div>
+            
+            <div id="gameOverScreen" class="game-over hidden">
+                <div class="game-over-content">
+                    <h2>Game Over!</h2>
+                    <p>Final Score: <span id="finalScore">0</span></p>
+                    <button id="restartBtn" class="restart-btn">Play Again</button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="controls">
+            <p>Use arrow keys to control the snake</p>
+            <div class="control-keys">
+                <div class="key-row">
+                    <div class="key">↑</div>
+                </div>
+                <div class="key-row">
+                    <div class="key">←</div>
+                    <div class="key">↓</div>
+                    <div class="key">→</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="snake.js"></script>
+</body>
+</html>
